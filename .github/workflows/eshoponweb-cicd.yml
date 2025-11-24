@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 # Environment variables used across jobs
 env:
-  RESOURCE-GROUP: 'rg-eshoponweb-wc' # Replace NAME with your unique identifier
+  RESOURCE-GROUP: 'rg-eshoponweb-wc1' # Replace NAME with your unique identifier
   LOCATION: 'eastus2' # Choose your Azure region
   TEMPLATE-FILE: '${{ github.workspace }}/infra/webapp.bicep'
   SUBSCRIPTION-ID: '547f4c97-23fe-44de-9171-759dbe20dc93' # Replace with your subscription ID
